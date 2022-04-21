@@ -2,7 +2,7 @@
 
 ### Projekt z przedmiotu Programowanie aplikacyjne:
 
-### „ Aplikacja odpowiedalna za zarządzanie restauracjami na terenie Polski ”
+### " Aplikacja odpowiedalna za zarządzanie restauracjami na terenie Polski "
 
 ### Skład zespołu:
 
@@ -20,8 +20,9 @@ Podczas rejestracji musimy wskazać swoje imię, nazwisko, e-mail, username, pas
 </p>
 
 <p align="center">
-<img src="./images_README/rejestracja.png" width="60%"/>
+  <img src="./images_README/rejestracja.png" width="60%"/>
 </p>
+
 ## Strona główna
 
 Po zalogowaniu przenosimy się na stronę główną, na której widzimy na górze po środku
@@ -37,6 +38,7 @@ konta (rys. 2.2).
 <p align="center">
 <img src="./images_README/edytowanie_konta.png" width="60%"/>
 </p>
+
 ## Szukaj restauracji
 
 Główna funkcjonalność web-aplikacji znajduje się w zakładce Find Restaurant,
@@ -50,6 +52,7 @@ i po kliknięciu na jedną z nich możemy zapoznać się z jej szczegółowym op
 <p align="center">
 <img src="./images_README/lista_restauracji.png" width="60%"/>
 </p>
+
 ## Opis restauracji
 
 Strona restauracji to krótki opis lokalu (rys. 4.1), a także trzy zakładki: Dishes, Reviews,
@@ -70,6 +73,7 @@ zależności od czasu (rys. 4.4). W przypadku, gdy nie można załadować danych
 <p align="center">
 <img src="./images_README/opinie_klientow.png" width="60%"/>
 </p>
+
 ## Ocena web aplikacji
 
 Dalej jest zakładka Rate us (rys. 5.1). W tej sekcji użytkownik może zostawić feedback
@@ -79,6 +83,7 @@ także może zobaczyć komentarze, pozostawione przez innych ludzi.
 <p align="center">
 <img src="./images_README/feedback.png" width="60%"/>
 </p>
+
 ## Dodatkowe
 
 Zakładka About zawiera bardzo krótki opis aplikacji.
