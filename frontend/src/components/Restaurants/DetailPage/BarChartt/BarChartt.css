@@ -1,0 +1,47 @@
+.plot__title{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.plot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px 0;
+    margin-bottom: 100px;
+}
+
+.plot__main{
+    display: block;
+    margin: 0 auto;
+    padding: 0 50px 0 0;
+}
+
+.plot__text{
+    font: 700 60px "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 40px rgba(255,255,255,.5);
+
+
+    background: url(https://freestockfootagearchive.com/wp-content/uploads/2019/03/purple_white_lines.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    animation: aitf 80s linear infinite;
+
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

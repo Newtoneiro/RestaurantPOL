@@ -1,0 +1,18 @@
+.select-param {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.select-param select {
+  font-family: "FontAwesome", "Raleway", sans-serif;
+}
+
+.select-param p {
+  font-size: 1.3rem;
+  width: 20%;
+  display: inline;
+}

@@ -1,0 +1,84 @@
+.form-container {
+  /* padding: 80px 0; */
+  text-align: center;
+}
+
+.form-container input,
+textarea,
+.forcedInput {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.281);
+  width: 400px;
+  border-radius: 3px;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 15px;
+  margin: 10px auto 0 auto;
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 300;
+}
+
+.forcedInput {
+  background-color: rgba(43, 43, 43, 0.281);
+}
+
+.form-container input::placeholder,
+textarea::placeholder {
+  color: #e0e0e0;
+}
+
+.form-container textarea {
+  height: 150px;
+  resize: none;
+}
+
+.form-container button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  margin-top: 20px;
+  color: #544179;
+  border-radius: 3px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.form-container button:hover {
+  cursor: pointer;
+}
+
+.form-container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-error {
+  color: #ffb347;
+  margin: 5px auto 10px auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.select-cuisine {
+  font-family: "FontAwesome", "Raleway", sans-serif;
+  text-align: left;
+  width: 400px;
+  margin: 10px auto 0 auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.float-input::-webkit-outer-spin-button,
+.float-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.float-input[type="number"] {
+  -moz-appearance: textfield;
+}

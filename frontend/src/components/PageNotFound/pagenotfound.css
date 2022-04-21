@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fade-in 0.9s;
+  transition: 0.5s;
+}
+
+.back-div {
+  margin-top: 2em;
+  overflow: hidden;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+}
+
+.back-div::before {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 350%;
+  background: linear-gradient(#00ccff, #d400d4);
+  animation: spin-bars 10s infinite linear;
+}
+
+.back-div::after {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  width: 98%;
+  height: 96%;
+  background-color: var(--base-color-1);
+}
+
+.back-div:hover {
+  background: var(--base-color-2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.shut {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  z-index: 20;
+}
+
+.back-icon {
+  transform: scale(1.2);
+  margin-left: 0.5em;
+  color: var(--base-color-6);
+}

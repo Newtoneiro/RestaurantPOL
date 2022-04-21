@@ -1,0 +1,97 @@
+.products {
+  margin: 50px 0;
+  width: 100%;
+  animation: slide-left 0.9s;
+}
+
+@keyframes slide-left {
+  0% {
+    margin-left: -300px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.odd {
+  background-color: #ffffff40;
+}
+
+.even {
+  background-color: #ffffff20;
+}
+
+.product h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.product h2 {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.product p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.product img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 10px 0;
+}
+
+.product button {
+  width: 150px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .product img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 20px 0;
+  }
+
+  .product h1 {
+    margin: 0;
+  }
+
+  .product p {
+    margin-bottom: 20px;
+  }
+}
+
+.remove-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: rgb(202, 49, 11);
+  transition: 0.5s;
+}
+
+.remove-mark:hover {
+  font-size: 2.5em;
+  color: rgb(66, 17, 5);
+  transition: 0.5s;
+  cursor: pointer;
+}

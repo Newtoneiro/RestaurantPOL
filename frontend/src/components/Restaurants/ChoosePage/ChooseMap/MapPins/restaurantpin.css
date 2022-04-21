@@ -1,0 +1,12 @@
+.pin {
+  display: flex;
+}
+
+.img {
+  margin-left: 5px;
+  margin-top: 1px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,279 @@
+:root {
+  --base-color-0: #0a0a0a;
+  --base-color-1: #181818;
+  --base-color-2: #414141;
+  --base-color-3: #949494;
+  --base-color-4: #3a3a3a;
+  --base-color-5: #747ced;
+  --base-color-6: #9037f1;
+  --base-color-7: #ffd446;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.5);
+    color: var(--base-color-6);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes slide-away {
+  0% {
+    margin-left: -200px;
+    opacity: 0;
+  }
+  60% {
+    margin-left: 0px;
+    opacity: 1;
+  }
+  100% {
+    margin-left: 200px;
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-left: -100px;
+    color: var(--base-color-1);
+  }
+  80% {
+    color: var(--base-color-5);
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-form {
+  0% {
+    margin-left: -700px;
+    opacity: 0;
+  }
+  80% {
+    color: var(--base-color-5);
+    opacity: 1;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes slide-form-reversed {
+  0% {
+    margin-left: 700px;
+    opacity: 0;
+  }
+  80% {
+    color: var(--base-color-5);
+    opacity: 1;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.rate-us-page {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: var(--base-color-1);
+}
+
+.rate-us-form {
+  margin-top: 2rem;
+  flex-grow: 1;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: var(--base-color-0);
+  width: 20rem;
+  height: 15rem;
+  box-shadow: 0.5rem 0.5rem var(--base-color-2);
+  animation: slide-form;
+  animation-duration: 2s;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  height: 10rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: var(--base-color-5);
+  font-size: 5rem;
+  position: fixed;
+  top: 12rem;
+  animation: slide-away 3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.star-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  font-size: 2rem;
+  color: var(--base-color-2);
+  transition: 0.5s;
+}
+
+.lit-star {
+  color: var(--base-color-5);
+  font-size: 2.3rem;
+  transition: 0.5s;
+}
+
+.five-stars {
+  animation: spin;
+  animation-duration: 1.5s;
+}
+
+.rating-description {
+  text-align: center;
+  height: 2rem;
+  color: var(--base-color-5);
+  letter-spacing: 5px;
+}
+
+.rating-desc {
+  animation: slide;
+  animation-duration: 2s;
+}
+
+.rating-input {
+  resize: none;
+  margin-top: 0.8rem;
+  padding: 0.4rem;
+  width: 100%;
+  height: 100%;
+}
+
+.rating-input:focus {
+  outline: none !important;
+  border: solid 2px var(--base-color-5);
+  padding: 0.35rem;
+}
+
+.submit-button {
+  letter-spacing: 0.3rem;
+  border: 0 !important;
+  outline: none !important;
+  width: 100%;
+  background-color: var(--base-color-5);
+  color: white;
+  transition: 0.5s;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  letter-spacing: 0.5rem;
+  font-size: 1.2rem;
+  background-color: var(--base-color-6);
+  transition: 0.5s;
+}
+
+.reviews-container {
+  flex-grow: 10;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  letter-spacing: 5px;
+  animation: slide-form-reversed 2s;
+}
+
+.footer {
+  background-color: var(--base-color-5);
+  height: 0.2rem;
+  width: 15rem;
+  border-radius: 20px;
+}
+
+.avg-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 5px;
+  flex-flow: column;
+  animation: slide-bottom 2s;
+}
+
+.avg-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  font-size: 1.5em;
+  flex-flow: row;
+  color: var(--base-color-2);
+}
+
+.full-star {
+  color: var(--base-color-7);
+}
+
+.half-star-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.half-star {
+  position: absolute;
+  clip-path: polygon(50% 0%, 50% 100%, 0% 100%, 0% 0%);
+  color: var(--base-color-7);
+}
+
+.remove-button {
+  position: relative;
+  left: 48%;
+  color: var(--base-color-2);
+  transition: 0.2s;
+}
+
+.remove-button:hover {
+  color: white;
+  transition: 0.2s;
+}
