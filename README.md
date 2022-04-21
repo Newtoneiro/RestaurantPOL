@@ -9,7 +9,7 @@
 - Latosek Bartosz
 - Olejnik Mikołaj
 
-## 1. Autoryzacja
+## Autoryzacja
 
 Po uruchomieniu web-aplikacji przechodzimy do strony startowej autoryzacji, na której
 mamy możliwość zalogowania się na konto (rys. 1.1) lub zarejestrowania nowego (rys. 1.2).
@@ -22,7 +22,7 @@ Podczas rejestracji musimy wskazać swoje imię, nazwisko, e-mail, username, pas
 <p align="center">
 <img src="./images_README/rejestracja.png" width="60%"/>
 </p>
-## 2. Strona główna
+## Strona główna
 
 Po zalogowaniu przenosimy się na stronę główną, na której widzimy na górze po środku
 pasek nawigacji i napis powitalny. Również w prawym górnym rogu widzimy ikonę użytkownika,
@@ -37,7 +37,7 @@ konta (rys. 2.2).
 <p align="center">
 <img src="./images_README/edytowanie_konta.png" width="60%"/>
 </p>
-## 3. Szukaj restauracji
+## Szukaj restauracji
 
 Główna funkcjonalność web-aplikacji znajduje się w zakładce Find Restaurant,
 przechodząc do której można zobaczyć mapę miejscowości i oznaczone na niej dostępne w
@@ -50,7 +50,7 @@ i po kliknięciu na jedną z nich możemy zapoznać się z jej szczegółowym op
 <p align="center">
 <img src="./images_README/lista_restauracji.png" width="60%"/>
 </p>
-## 4. Opis restauracji
+## Opis restauracji
 
 Strona restauracji to krótki opis lokalu (rys. 4.1), a także trzy zakładki: Dishes, Reviews,
 Attendance. Po kolei: w zakładce Dishes widzimy dania, które przedstawia wybrany zakład (ich
@@ -70,7 +70,7 @@ zależności od czasu (rys. 4.4). W przypadku, gdy nie można załadować danych
 <p align="center">
 <img src="./images_README/opinie_klientow.png" width="60%"/>
 </p>
-## 5. Ocena web aplikacji
+## Ocena web aplikacji
 
 Dalej jest zakładka Rate us (rys. 5.1). W tej sekcji użytkownik może zostawić feedback
 odnoszący się wyłącznie do aplikacji (ocenić od 1 do 5 i zostawić miły komentarz). Użytkownik
@@ -79,7 +79,7 @@ także może zobaczyć komentarze, pozostawione przez innych ludzi.
 <p align="center">
 <img src="./images_README/feedback.png" width="60%"/>
 </p>
-## 6. Dodatkowe
+## Dodatkowe
 
 Zakładka About zawiera bardzo krótki opis aplikacji.
 
