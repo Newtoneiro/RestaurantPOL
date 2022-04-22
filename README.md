@@ -4,11 +4,6 @@
 
 ### " Aplikacja odpowiedalna za zarządzanie restauracjami na terenie Polski "
 
-### Skład zespołu:
-
-- Latosek Bartosz
-- Olejnik Mikołaj
-
 ## Autoryzacja
 
 Po uruchomieniu web-aplikacji przechodzimy do strony startowej autoryzacji, na której
@@ -16,11 +11,11 @@ mamy możliwość zalogowania się na konto (rys. 1.1) lub zarejestrowania noweg
 Podczas rejestracji musimy wskazać swoje imię, nazwisko, e-mail, username, password.
 
 <p align="center">
-  <img src="./images_README/logowanie.png" width="60%"/>
+  <img src="./images_README/logowanie.png" width="80%"/>
 </p>
 
 <p align="center">
-  <img src="./images_README/rejestracja.png" width="60%"/>
+  <img src="./images_README/rejestracja.png" width="80%"/>
 </p>
 
 ## Strona główna
@@ -33,10 +28,10 @@ W ustawieniach użytkownika można wprowadzać wszelkiego rodzaju zmiany, aż do
 konta (rys. 2.2).
 
 <p align="center">
-<img src="./images_README/strona_glowna.png" width="60%" margin="auto"/>
+<img src="./images_README/strona_glowna.png" width="80%"/>
 </p>
 <p align="center">
-<img src="./images_README/edytowanie_konta.png" width="60%"/>
+<img src="./images_README/edytowanie_konta.png" width="80%"/>
 </p>
 
 ## Szukaj restauracji
@@ -47,10 +42,10 @@ naszej bazie danych restauracje (rys. 3.1). Na stronie znajduje się również p
 i po kliknięciu na jedną z nich możemy zapoznać się z jej szczegółowym opisem (rys. 3.2).
 
 <p align="center">
-<img src="./images_README/mapa_miejscowosci.png" width="60%"/>
+<img src="./images_README/mapa_miejscowosci.png" width="80%"/>
 </p>
 <p align="center">
-<img src="./images_README/lista_restauracji.png" width="60%"/>
+<img src="./images_README/lista_restauracji.png" width="80%"/>
 </p>
 
 ## Opis restauracji
@@ -65,13 +60,13 @@ zależności od czasu (rys. 4.4). W przypadku, gdy nie można załadować danych
 ładowane, widzimy napis Loading.
 
 <p align="center">
-<img src="./images_README/krotki_opis_lokalu.png" width="60%"/>
+<img src="./images_README/krotki_opis_lokalu.png" width="80%"/>
 </p>
 <p align="center">
-<img src="./images_README/dania.png" width="60%"/>
+<img src="./images_README/dania.png" width="80%"/>
 </p>
 <p align="center">
-<img src="./images_README/opinie_klientow.png" width="60%"/>
+<img src="./images_README/opinie_klientow.png" width="80%"/>
 </p>
 
 ## Ocena web aplikacji
@@ -81,7 +76,7 @@ odnoszący się wyłącznie do aplikacji (ocenić od 1 do 5 i zostawić miły ko
 także może zobaczyć komentarze, pozostawione przez innych ludzi.
 
 <p align="center">
-<img src="./images_README/feedback.png" width="60%"/>
+<img src="./images_README/feedback.png" width="80%"/>
 </p>
 
 ## Dodatkowe
@@ -92,4 +87,7 @@ Z konta administratora strona ogólnie wygląda podobnie, ale są niektóre ró�
 pierwsze, można dodawać restauracje, a także zmieniać menu. Co więcej, można edytować
 komentarze innych użytkowników.
 
+### Uwaga
+
+Baza danych przydzielona nam do projektu jest nieaktywna, w związku z czym aplikacja nie pobiera ani nie zapisuje danych z serwera.
 
